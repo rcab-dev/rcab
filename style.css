@@ -1,0 +1,73 @@
+li {
+    font-weight: bold;
+    font-style: italic;
+    list-style: circle;
+}
+
+li p {
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: normal;
+    align-content: normal;
+}
+
+#contact {
+    text-align: right;
+    float: right;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 32px;
+    color:black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+#name {
+    font-size: 1.25em;
+}
+
+#mainlinks {
+    font-size: 1.25em;
+}
+
+#intro p {
+    font-style: italic;
+}
+
+#music {
+    margin-top: 32px;
+    display: grid;
+}
+
+#games img {
+    max-width: 256px;
+    display: flex;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+#games {
+    font-style: italic;
+}
